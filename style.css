@@ -1,0 +1,91 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Input URL */
+input[type="text"] {
+  width: 70%;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 9px 16px;
+  font-size: 16px;
+  margin-left: 10px;
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005a9e;
+}
+
+/* Chapter list */
+.chapter-list {
+  margin-top: 20px;
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background: white;
+  border-radius: 6px;
+}
+
+.chapter-item {
+  display: flex;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.chapter-item:last-child {
+  border-bottom: none;
+}
+
+.chapter-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Cover image */
+.cover {
+  max-width: 200px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Status message */
+.status {
+  margin-top: 15px;
+  font-style: italic;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 100%;
+    margin-left: 0;
+  }
+}
