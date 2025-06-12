@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>RoyalRoad EPUB Builder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>RoyalRoad EPUB Tool</h1>
+  <input id="urlInput" placeholder="Enter RoyalRoad story URL">
+  <button onclick="fetchChapters()">Fetch Chapters</button>
+  <ul id="chapterList"></ul>
+  <button onclick="generateEpub()">Generate EPUB</button>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
