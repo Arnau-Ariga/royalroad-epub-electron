@@ -1,0 +1,6 @@
+node_modules/
+*.epub
+*.log
+.DS_Store
+/dist
+/out
